@@ -44,8 +44,22 @@ body {
 }
 .nav-bar{
     background: #ffffff;
-    
 
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
 }
 #page>video{
     height: 100%;
